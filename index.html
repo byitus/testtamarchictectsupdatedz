@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="AM Architects — Crafting timeless, sustainable spaces that elevate the way we live, work, and gather." />
+  <title>AM Architects — Crafting Spaces of Quiet Distinction</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ============ LOADING SCREEN ============ -->
+  <div class="loader" id="loader">
+    <div class="loader__inner">
+      <div class="loader__mark">
+        <span class="loader__letter">A</span><span class="loader__dot">·</span><span class="loader__letter">M</span>
+      </div>
+      <div class="loader__line"><span class="loader__progress" id="loaderProgress"></span></div>
+      <div class="loader__text">Crafting Spaces…</div>
+    </div>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo" data-scroll>
+        <img src="images/logo-nav.jpeg" alt="AM Architects" class="nav__logo-img" />
+        <span class="nav__logo-sub">Architects · Est. 2013</span>
+      </a>
+      <nav class="nav__links">
+        <a href="#about" data-scroll>About</a>
+        <a href="#team" data-scroll>Team</a>
+        <a href="#projects" data-scroll>Projects</a>
+        <a href="#interiors" data-scroll>Interiors</a>
+        <a href="#elements" data-scroll>Elements</a>
+        <a href="#community" data-scroll>Community</a>
+        <a href="#articles" data-scroll>Journal</a>
+        <a href="#contact" data-scroll>Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="nav__user" id="navUserBtn" aria-label="Account">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4" />
+            <path d="M4 21c0-4 4-7 8-7s8 3 8 7" />
+          </svg>
+          <span id="navUserLabel">Sign in</span>
+        </button>
+        <button class="nav__burger" id="navBurger" aria-label="Menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__bg-image"
+        style="background-image:url('images/p05-vengat-villa-day.jpeg')"></div>
+      <div class="hero__bg-veil"></div>
+    </div>
+
+    <!-- decorative side rail -->
+    <div class="hero__rail">
+      <span class="hero__rail-num">N° 001</span>
+      <span class="hero__rail-line"></span>
+      <span class="hero__rail-loc">12.97°N · 77.59°E</span>
+    </div>
+
+    <!-- decorative oversized year -->
+    <div class="hero__year">MMIX<span>—</span>MMXXVI</div>
+
+    <div class="hero__grid">
+      <div class="hero__meta">
+        <span class="dot"></span>
+        <span>Practising since 2013</span>
+        <span class="hero__time" id="heroTime">—</span>
+      </div>
+
+      <h1 class="hero__title">
+        <span class="hero__line"><em>Architecture</em></span>
+        <span class="hero__line">of <span class="accent">quiet</span></span>
+        <span class="hero__line">distinction.</span>
+      </h1>
+
+      <p class="hero__lede">
+        We design residences, civic places and interiors that hold their composure across decades — rooted in landscape,
+        light, and the lives within them.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary magnetic" data-scroll>
+          <span>View the work</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M5 12h14M13 5l7 7-7 7" />
+          </svg>
+        </a>
+        <a href="#contact" class="btn btn--ghost magnetic" data-scroll>Begin a project</a>
+      </div>
+
+      <div class="hero__foot">
+        <div class="hero__stat"><b>140+</b><span>Built works</span></div>
+        <div class="hero__stat"><b>17</b><span>Years of practice</span></div>
+        <div class="hero__stat"><b>120+</b><span>Happy clients</span></div>
+      </div>
+    </div>
+
+    <a href="#about" class="hero__scroll" data-scroll aria-label="Scroll">
+      <span class="hero__scroll-line"></span>
+      <span class="hero__scroll-text">Scroll</span>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE 1 ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Residential</span><span class="marquee__dot">✦</span>
+      <span>Commercial</span><span class="marquee__dot">✦</span>
+      <span>Civic</span><span class="marquee__dot">✦</span>
+      <span>Interiors</span><span class="marquee__dot">✦</span>
+      <span>Heritage</span><span class="marquee__dot">✦</span>
+      <span>Sustainable</span><span class="marquee__dot">✦</span>
+      <span>Residential</span><span class="marquee__dot">✦</span>
+      <span>Commercial</span><span class="marquee__dot">✦</span>
+      <span>Civic</span><span class="marquee__dot">✦</span>
+      <span>Interiors</span><span class="marquee__dot">✦</span>
+      <span>Heritage</span><span class="marquee__dot">✦</span>
+      <span>Sustainable</span><span class="marquee__dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section section--about" id="about" data-num="01">
+    <div class="container">
+      <div class="eyebrow"><span>01</span><span>The Practice</span></div>
+
+      <div class="about__grid">
+        <div class="about__lead">
+          <h2 class="display split-reveal">A studio devoted to the slow craft of building well.</h2>
+
+          <div class="about__stats">
+            <div class="abs reveal"><b data-count="16">0</b><span>Years in practice</span></div>
+            <div class="abs reveal"><b data-count="140">0</b><span>Built works</span></div>
+            <div class="abs reveal"><b data-count="100">0</b><span>Client Satisfaction%</span></div>
+            <div class="abs reveal"><b data-count="32">0</b><span>Cities &amp; villages</span></div>
+          </div>
+
+          <blockquote class="about__pull reveal">
+            <span class="about__pull-mark">“</span>
+            <p>We do not design buildings. We design the long, slow conversations that buildings have with the people
+              who live in them.</p>
+            <cite>— Balaji, Engineer </cite>
+          </blockquote>
+        </div>
+
+        <div class="about__body">
+          <p class="reveal">AM Architects is an independent studio based  on Tamil Nadu. We work at the
+            intersection of <em>contemporary form</em> and <em>regional intelligence</em> — buildings that respond to
+            climate, material and the quiet rituals of everyday life.</p>
+          <p class="reveal">Our practice is small by intention. Every project passes through the hands of a principal
+            architect, from the first sketch to the final walk-through. We believe that restraint is a kind of
+            generosity, and that good architecture should feel inevitable.</p>
+
+          <div class="about__pillars">
+            <div class="pillar reveal">
+              <span class="pillar__num">Vision</span>
+              <p>Architecture as a long, considered conversation between site, season and dweller.</p>
+            </div>
+            <div class="pillar reveal">
+              <span class="pillar__num">Mission</span>
+              <p>To build sustainably, beautifully and with a fierce attention to the things that endure.</p>
+            </div>
+            <div class="pillar reveal">
+              <span class="pillar__num">Method</span>
+              <p>Hand drawing, physical models, and a deep respect for the maker's craft on site.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <figure class="about__plate reveal">
+        <img loading="lazy" src="images/i02-office-interior.jpeg"
+          alt="Studio interior" />
+        <figcaption>The principal's room at the studio — drawn at dusk.</figcaption>
+      </figure>
+
+      <!-- recognition strip -->
+      <div class="recognition reveal">
+        <div class="recognition__label">As featured in</div>
+        <div class="recognition__list">
+          <span class="rec"> CG <i>House</i></span>
+          <span class="rec">Fathima Towers Abudhabi</span>
+          <span class="rec"> Aasi multi speciality Hospitals <i>Ramanathapuram</i></span>
+          <span class="rec"> Adnak <i>Industrial</i></span>
+          <span class="rec">Adnak Residential Homes<i>*</i></span>
+          <span class="rec">THE <i>Am Architects</i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TEAM ============ -->
+  <section class="section section--team" id="team">
+    <div class="container">
+      <div class="eyebrow"><span>--</span><span>The Studio</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">Leadership and studio <em>team</em>.</h2>
+        <p class="section__sub reveal">The founders guide the studio vision, supported by a focused team across drawings, site coordination, and delivery.</p>
+      </div>
+
+      <div class="team-block">
+        <div class="team-block__head reveal">
+          <span>Founders &amp; Directors</span>
+        </div>
+
+        <div class="team team--main">
+          <article class="member member--lead reveal">
+            <div class="member__media">
+              <img src="images/team-main-02.jpeg" alt="Er. Balaji">
+              <span class="member__badge">Founder</span>
+            </div>
+            <div class="member__body">
+              <span class="member__role">Chairman, Cum Managing Director</span>
+              <h3 class="member__name">Er. <em>BALAJI</em></h3>
+            </div>
+          </article>
+
+          <article class="member member--lead reveal">
+            <div class="member__media">
+              <img src="images/team-main-01.jpeg" alt="Ar. Gowthaman">
+              <span class="member__badge">Founder</span>
+            </div>
+            <div class="member__body">
+              <span class="member__role">Managing Director</span>
+              <h3 class="member__name">Ar. <em>GOWTHAMAN</em></h3>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="team-block team-block--staff">
+        <div class="team-block__head reveal">
+          <span>Other Staff</span>
+        </div>
+
+        <div class="team-staff-columns">
+          <div class="team team--staff team--staff-half">
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-01.jpeg" alt="Er. Shifana"></div>
+              <div class="member__body"><span class="member__role">Drafting and Designer</span><h3 class="member__name">Er. <em>SHIFANA</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-02.jpeg" alt="Ar. Yazhini"></div>
+              <div class="member__body"><span class="member__role">Senior Architect</span><h3 class="member__name">Ar. <em>YAZHINI</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-03.jpeg" alt="Ar. Aadhil"></div>
+              <div class="member__body"><span class="member__role">Junior Architect</span><h3 class="member__name">Ar. <em>AADHIL</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-04.jpeg" alt="Ar. Logesh"></div>
+              <div class="member__body"><span class="member__role">Junior Architect</span><h3 class="member__name">Ar. <em>LOGESH</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-05.jpeg" alt="Er. Jerry"></div>
+              <div class="member__body"><span class="member__role">Project Engineer</span><h3 class="member__name">Er. <em>JERRY</em></h3></div>
+            </article>
+          </div>
+
+          <div class="team team--staff team--staff-half">
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-06.jpeg" alt="Er. Prabha"></div>
+              <div class="member__body"><span class="member__role">Senior Engineer</span><h3 class="member__name">Er. <em>PRABHA</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-07.jpeg" alt="Er. Parthiban"></div>
+              <div class="member__body"><span class="member__role">Project Coordinator</span><h3 class="member__name">Er. <em>PARTHIBAN</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-08.jpeg" alt="Er. Mahadevan"></div>
+              <div class="member__body"><span class="member__role">Project Engineer</span><h3 class="member__name">Er. <em>MAHADEVAN</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-09.jpeg" alt="Ar. Amzath Khan"></div>
+              <div class="member__body"><span class="member__role">Chief Architect</span><h3 class="member__name">Ar. <em>AMZATH KHAN</em></h3></div>
+            </article>
+            <article class="member member--staff reveal">
+              <div class="member__media"><img src="images/team-staff-10.jpeg" alt="Guna"></div>
+              <div class="member__body"><span class="member__role">Engineer</span><h3 class="member__name"><em>GUNA</em></h3></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ============ STATS STRIP (Obliq-style ticker) ============ -->
+  <section class="stats-strip" aria-hidden="true">
+    <div class="container">
+      <div class="stats-strip__grid">
+        <div class="ss-stat">
+          <span class="ss-num"><span data-counter="16">0</span></span>
+          <span class="ss-label">Years of <i>practice</i></span>
+        </div>
+        <div class="ss-stat">
+          <span class="ss-num"><span data-counter="140">0</span><sup>+</sup></span>
+          <span class="ss-label">Projects <i>realised</i></span>
+        </div>
+        <div class="ss-stat">
+          <span class="ss-num"><span data-counter="32">0</span></span>
+          <span class="ss-label">Cities &amp; <i>villages</i></span>
+        </div>
+        <div class="ss-stat">
+          <span class="ss-num"><span data-counter="100">0</span></span>
+          <span class="ss-label">Client <i>Satisfaction%</i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES — vertical luxury list ============ -->
+  <section class="services">
+    <div class="container">
+      <div class="eyebrow"><span>—</span><span>What we offer</span></div>
+      <h2 class="display reveal">A complete practice, end to end.</h2>
+      <ul class="svc-list">
+        <li class="svc">
+          <span class="svc__num">01</span>
+          <h3 class="svc__title">Architectural <i>Design</i></h3>
+          <span class="svc__arrow">→</span>
+          <div class="svc__preview"
+            style="background-image:url('images/p10-residence-06.jpeg')">
+          </div>
+        </li>
+        <li class="svc">
+          <span class="svc__num">02</span>
+          <h3 class="svc__title">Interior <i>Architecture</i></h3>
+          <span class="svc__arrow">→</span>
+          <div class="svc__preview"
+            style="background-image:url('images/i01-living-room.jpeg')">
+          </div>
+        </li>
+        <li class="svc">
+          <span class="svc__num">03</span>
+          <h3 class="svc__title">Master <i>Planning</i></h3>
+          <span class="svc__arrow">→</span>
+          <div class="svc__preview"
+            style="background-image:url('images/p03-park-residence.jpeg')">
+          </div>
+        </li>
+        <li class="svc">
+          <span class="svc__num">04</span>
+          <h3 class="svc__title">Heritage <i>Conservation</i></h3>
+          <span class="svc__arrow">→</span>
+          <div class="svc__preview"
+            style="background-image:url('images/p07-modern-house.jpeg')">
+          </div>
+        </li>
+        <li class="svc">
+          <span class="svc__num">05</span>
+          <h3 class="svc__title">Sustainable <i>Consulting</i></h3>
+          <span class="svc__arrow">→</span>
+          <div class="svc__preview"
+            style="background-image:url('images/p11-deva-residence.jpeg')">
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ============ HORIZONTAL SCROLL — process ============ -->
+  <section class="hscroll" id="hscrollSection">
+    <div class="hscroll__pin">
+      <div class="hscroll__head">
+        <div class="eyebrow"><span>—</span><span>How we work</span></div>
+        <h2 class="display reveal">A project, from first <em>conversation</em> to handover.</h2>
+      </div>
+
+      <div class="hscroll__viewport">
+        <div class="hscroll__rail" id="hscrollRail">
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">01</span>
+              <img loading="lazy" src="images/i02-office-interior.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase One</span>
+              <h3 class="hs-card__title">First <i>conversation</i></h3>
+              <p class="hs-card__text">An unhurried meeting at the studio or on site. We listen far more than we
+                propose, and leave with sketches rather than a contract.</p>
+              <div class="hs-card__duration">Duration · <b>2 weeks</b></div>
+            </div>
+          </article>
+
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">02</span>
+              <img loading="lazy" src="images/p06-vellaichamy-residence.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase Two</span>
+              <h3 class="hs-card__title">Site &amp; <i>survey</i></h3>
+              <p class="hs-card__text">Topography, soil, sun, wind, neighbours, season. A careful read of the site
+                before a single line is drawn.</p>
+              <div class="hs-card__duration">Duration · <b>3 weeks</b></div>
+            </div>
+          </article>
+
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">03</span>
+              <img loading="lazy" src="images/p16-aswin-ajay-villa.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase Three</span>
+              <h3 class="hs-card__title">Concept &amp; <i>schematic</i></h3>
+              <p class="hs-card__text">Hand sketches, physical models, two or three honest options. We walk you through
+                each in person, never as a deck.</p>
+              <div class="hs-card__duration">Duration · <b>6—8 weeks</b></div>
+            </div>
+          </article>
+
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">04</span>
+              <img loading="lazy" src="images/i05-kitchen-dining.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase Four</span>
+              <h3 class="hs-card__title">Design <i>development</i></h3>
+              <p class="hs-card__text">Material selection, joinery details, structural coordination. Every doorway, sill
+                and threshold is drawn at full scale.</p>
+              <div class="hs-card__duration">Duration · <b>10—12 weeks</b></div>
+            </div>
+          </article>
+
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">05</span>
+              <img loading="lazy" src="images/p11-deva-residence.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase Five</span>
+              <h3 class="hs-card__title">On <i>site</i></h3>
+              <p class="hs-card__text">Weekly visits, a principal architect on call, and a relationship with the masons
+                that often outlasts the project itself.</p>
+              <div class="hs-card__duration">Duration · <b>12—24 months</b></div>
+            </div>
+          </article>
+
+          <article class="hs-card">
+            <div class="hs-card__media">
+              <span class="hs-card__step">06</span>
+              <img loading="lazy" src="images/p17-vengat-villa-night.jpeg" alt="">
+            </div>
+            <div class="hs-card__body">
+              <span class="hs-card__phase">Phase Six</span>
+              <h3 class="hs-card__title">Handover &amp; <i>after</i></h3>
+              <p class="hs-card__text">A walk-through, a written care manual, and a quiet relationship that continues —
+                often for the next building, often for the next generation.</p>
+              <div class="hs-card__duration">Duration · <b>Ongoing</b></div>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <div class="hscroll__progress"><span class="hscroll__progress-fill" id="hscrollFill"></span></div>
+      <div class="hscroll__counter"><span>Scroll to advance</span><span><b id="hscrollCount">01</b> / 06</span></div>
+    </div>
+  </section>
+
+  <!-- ============ KINETIC DIVIDER ============ -->
+  <div class="kinetic" aria-hidden="true">
+    <div class="kinetic__row" data-kinetic>
+      <span>AM ARCHITECTS</span>
+      <span class="kinetic__star">✦</span>
+      <span><i>Crafting Spaces</i></span>
+      <span class="kinetic__star">✦</span>
+      <span>Since 2013</span>
+      <span class="kinetic__star">✦</span>
+      <span>AM ARCHITECTS</span>
+      <span class="kinetic__star">✦</span>
+      <span><i>Crafting Spaces</i></span>
+      <span class="kinetic__star">✦</span>
+      <span>Since 2013</span>
+      <span class="kinetic__star">✦</span>
+    </div>
+  </div>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section section--projects" id="projects" data-num="02">
+    <div class="container">
+      <div class="eyebrow"><span>02</span><span>Selected Work</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">A portfolio shaped by site and silence.</h2>
+        <div class="filters" id="projectFilters">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="residential">Residential</button>
+          <button class="filter" data-filter="commercial">Commercial</button>
+          <button class="filter" data-filter="community">Community</button>
+        </div>
+      </div>
+
+      <div class="projects" id="projectsGrid"><!-- JS injected --></div>
+    </div>
+  </section>
+
+  <!-- ============ INTERIORS ============ -->
+  <section class="section section--interiors" id="interiors">
+    <div class="container">
+      <div class="eyebrow"><span>03</span><span>Interiors</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">Rooms that hold the weight of the day.</h2>
+        <p class="section__sub reveal">Considered surfaces, honest joinery, light treated as a material in itself.</p>
+      </div>
+
+      <!-- before/after slider -->
+      <div class="ba reveal">
+        <div class="ba__frame" id="baFrame">
+          <img class="ba__img ba__img--after"
+            src="images/i01-living-room.jpeg" alt="After">
+          <div class="ba__before" id="baBefore">
+            <img class="ba__img" src="images/i03-master-bedroom.jpeg"
+              alt="Before">
+          </div>
+          <div class="ba__handle" id="baHandle">
+            <span class="ba__line"></span>
+            <span class="ba__knob">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 6L3 12l6 6M15 6l6 6-6 6" />
+              </svg>
+            </span>
+          </div>
+          <span class="ba__label ba__label--before">Before</span>
+          <span class="ba__label ba__label--after">After</span>
+        </div>
+        <p class="ba__caption">Drag to compare — Anantara House library wing, before and after.</p>
+      </div>
+
+      <div class="interiors-grid">
+        <figure class="int int--tall reveal" style="--d:0ms"><img loading="lazy"
+            src="images/i01-living-room.jpeg" alt="">
+          <figcaption>The Long Hall — double-height living, Anantara House</figcaption>
+        </figure>
+        <figure class="int reveal" style="--d:80ms"><img loading="lazy"
+            src="images/i04-dining.jpeg" alt="">
+          <figcaption>Dining Pavilion — Coastal Residence</figcaption>
+        </figure>
+        <figure class="int reveal" style="--d:160ms"><img loading="lazy"
+            src="images/i05-kitchen-dining.jpeg" alt="">
+          <figcaption>Kitchen &amp; Long Table — Tea Estate</figcaption>
+        </figure>
+        <figure class="int int--wide reveal" style="--d:240ms"><img loading="lazy"
+            src="images/i03-master-bedroom.jpeg" alt="">
+          <figcaption>Principal Bedroom — Anantara House</figcaption>
+        </figure>
+        <figure class="int reveal" style="--d:320ms"><img loading="lazy"
+            src="images/i07-tv-unit.jpeg" alt="">
+          <figcaption>Reading Niche — Heritage Wing</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ARCHITECTURAL ELEMENTS ============ -->
+  <section class="section section--elements" id="elements">
+    <div class="container">
+      <div class="eyebrow"><span>04</span><span>Elements</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">The vocabulary of the practice.</h2>
+        <p class="section__sub reveal">Materials, structures and ideas we return to, season after season.</p>
+      </div>
+
+      <div class="elements">
+        <article class="element reveal">
+          <div class="element__num">i.</div>
+          <h3>Lime &amp; Lateral Stone</h3>
+          <p>Hand-laid lime plaster and locally quarried stone that breathe with the climate and weather into deeper
+            presence with time.</p>
+        </article>
+        <article class="element reveal">
+          <div class="element__num">ii.</div>
+          <h3>Vernacular Light</h3>
+          <p>Deep verandahs, jaali screens and clerestory bands — buildings that learn from the courtyard houses they
+            descend from.</p>
+        </article>
+        <article class="element reveal">
+          <div class="element__num">iii.</div>
+          <h3>Honest Joinery</h3>
+          <p>Mortise-and-tenon, exposed peg, oiled rosewood. Joinery that admits its making and asks to be touched.</p>
+        </article>
+        <article class="element reveal">
+          <div class="element__num">iv.</div>
+          <h3>Quiet Structure</h3>
+          <p>Loadbearing walls, slender columns, slabs that fold into roofs. Structure as the silent grammar of every
+            room.</p>
+        </article>
+        <article class="element reveal">
+          <div class="element__num">v.</div>
+          <h3>Water as Threshold</h3>
+          <p>Reflective courts, channels and step-tanks that cool the air, slow the eye, and anchor a building to its
+            ground.</p>
+        </article>
+        <article class="element reveal">
+          <div class="element__num">vi.</div>
+          <h3>The Long Garden</h3>
+          <p>Native planting designed to mature over twenty years — architecture that is half-built, half-grown.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMMUNITY ============ -->
+  <section class="section section--community" id="community" data-num="05">
+    <div class="container">
+      <div class="eyebrow"><span>05</span><span>Community</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">Buildings made for the many, not the few.</h2>
+      </div>
+
+      <div class="stories">
+        <article class="story reveal">
+          <div class="story__media"><img loading="lazy"
+              src="images/c01-royaloak-commercial.jpeg" alt=""></div>
+          <div class="story__body">
+            <span class="story__tag">Kallur · 2022</span>
+            <h3>A school that opens to the rain.</h3>
+            <p>Forty-eight classrooms wrapped around a monsoon court — built with the village masons, in earth and lime,
+              for under three thousand rupees a square foot. The children helped paint the doors.</p>
+          </div>
+        </article>
+        <article class="story story--reverse reveal">
+          <div class="story__media"><img loading="lazy"
+              src="images/p13-bala-residence.jpeg" alt=""></div>
+          <div class="story__body">
+            <span class="story__tag">Tiruvannamalai · 2024</span>
+            <h3>A weavers' hall, after the flood.</h3>
+            <p>Replacing a century-old hall lost to the 2023 floods, this open-plan workshop returns the cooperative's
+              eighty-two weavers to a single roof — raised, ventilated, and lit from the north.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section--testimonials" id="testimonials">
+    <div class="container">
+      <div class="eyebrow"><span>06</span><span>In Their Words</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">Conversations with the people we built for.</h2>
+      </div>
+
+      <div class="carousel" id="testimonialCarousel">
+        <button class="carousel__nav carousel__nav--prev" aria-label="Previous">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M19 12H5M12 5l-7 7 7 7" />
+          </svg>
+        </button>
+        <div class="carousel__track" id="testimonialTrack"><!-- JS --></div>
+        <button class="carousel__nav carousel__nav--next" aria-label="Next">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M5 12h14M12 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
+      <div class="carousel__dots" id="testimonialDots"></div>
+    </div>
+  </section>
+
+  <!-- ============ RATINGS ============ -->
+  <section class="section section--ratings" id="ratings">
+    <div class="container ratings">
+      <div class="eyebrow"><span>07</span><span>Studio Rating</span></div>
+      <h2 class="display reveal">How clients have rated the studio.</h2>
+
+      <div class="ratings__display">
+        <div class="ratings__avg">
+          <span class="ratings__num" id="avgRating">4.9</span>
+          <div class="ratings__stars-static" id="avgStars"></div>
+          <span class="ratings__count" id="ratingCount">based on 38 ratings</span>
+        </div>
+        <div class="ratings__give">
+          <p class="ratings__prompt">Have we worked together? Share a rating.</p>
+          <div class="rate-stars" id="rateStars">
+            <span data-v="1">★</span><span data-v="2">★</span><span data-v="3">★</span><span data-v="4">★</span><span
+              data-v="5">★</span>
+          </div>
+          <p class="ratings__note" id="rateNote">Sign in with your phone to leave a rating.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ARTICLES (CMS) ============ -->
+  <section class="section section--articles" id="articles" data-num="08">
+    <div class="container">
+      <div class="eyebrow"><span>08</span><span>The Journal</span></div>
+      <div class="section__head">
+        <h2 class="display reveal">Field notes from the studio.</h2>
+        <div class="filters" id="articleFilters">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="sustainable">Sustainable</button>
+          <button class="filter" data-filter="modern">Modern Design</button>
+          <button class="filter" data-filter="techniques">Techniques</button>
+        </div>
+      </div>
+      <div class="articles" id="articlesGrid"><!-- JS --></div>
+    </div>
+  </section>
+
+  <!-- ============ CAREERS ============ -->
+  <section class="section section--careers" id="careers">
+    <div class="container">
+      <div class="eyebrow"><span>09</span><span>Careers</span></div>
+      <div class="careers">
+        <div class="careers__copy reveal">
+          <h2 class="display">Apprentice with the studio.</h2>
+          <p>We open two associate roles and four six-month apprenticeships each year. We look for patience, a good eye,
+            and a willingness to learn from the people who build.</p>
+          <ul class="careers__open">
+            <li><span>Associate Architect</span><span> Ramanathapuram · Full-time</span></li>
+            <li><span>Junior Architect</span><span>Tamil Nadu · Full-time</span></li>
+            <li><span>Apprentice (6 mo.)</span><span>Either studio · Stipend</span></li>
+          </ul>
+        </div>
+
+        <form class="careers__form" id="careerForm" novalidate>
+          <h3>Send an application</h3>
+          <label><span>Name</span><input type="text" name="name" required></label>
+          <label><span>Phone</span><input type="tel" name="phone" required></label>
+          <label><span>Email</span><input type="email" name="email" required></label>
+          <label><span>Role</span>
+            <select name="role">
+              <option>Associate Architect</option>
+              <option>Junior Architect</option>
+              <option>Apprentice (6 months)</option>
+            </select>
+          </label>
+          <label class="careers__file"><span>Portfolio / Resume</span>
+            <div class="careers__file-box">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <path d="M14 2v6h6" />
+              </svg>
+              <span id="fileLabel">Upload a PDF (max 8 MB)</span>
+              <input type="file" id="resumeFile" accept="application/pdf">
+            </div>
+          </label>
+          <button type="submit" class="btn btn--primary"><span>Submit application</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT (LOCKED) ============ -->
+  <section class="section section--contact" id="contact">
+    <div class="container">
+      <div class="eyebrow"><span>10</span><span>Begin a Project</span></div>
+
+      <div class="contact">
+        <div class="contact__copy reveal">
+          <h2 class="display">Tell us what you'd like to build.</h2>
+          <p>We answer every enquiry personally, usually within two working days. There is no obligation, no formality —
+            only a careful conversation.</p>
+          <div class="contact__lines">
+            <div><span>Studio</span><b>Ramanathapuram · Tamil Nadu</b></div>
+            <div><span>Hours</span><b>Mon — Fri · 10:00 to 18:00</b></div>
+            <div><span>Press</span><b>akibhadesignz@gmail.com</b></div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap">
+          <form class="contact__form" id="contactForm" novalidate>
+            <label><span>Your name</span><input type="text" name="name"
+                placeholder="How should we address you?"></label>
+            <label><span>Phone <em>(required)</em></span><input type="tel" name="phone" id="contactPhone" required
+                placeholder="+91 98765 43210"></label>
+            <label><span>Email</span><input type="email" name="email" id="contactEmail"
+                placeholder="you@studio.in"></label>
+            <label><span>Project type</span>
+              <select name="type">
+                <option>Residential</option>
+                <option>Commercial</option>
+                <option>Community / Institutional</option>
+                <option>Interiors only</option>
+              </select>
+            </label>
+            <label><span>A few words</span><textarea name="message" rows="4"
+                placeholder="Site, scale, the kind of place you imagine…"></textarea></label>
+            <button type="submit" class="btn btn--primary"><span>Send enquiry</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__mark">AM</div>
+          <p>Architecture of quiet distinction. Designing across India since 2013.</p>
+        </div>
+        <div class="footer__col">
+          <span>Studio</span>
+          <a href="#about" data-scroll>About</a>
+          <a href="#projects" data-scroll>Projects</a>
+          <a href="#articles" data-scroll>Journal</a>
+          <a href="#careers" data-scroll>Careers</a>
+        </div>
+        <div class="footer__col">
+          <span>Contact</span>
+          <a href="#contact" data-scroll>Begin a project</a>
+          <a href="mailto:akhibadesignz@gmail.com">akhibadesignz@gmail.com</a>
+          <a href="tel:+916383397960">+91 633 833 97960</a>
+        </div>
+        <div class="footer__col">
+          <span>Elsewhere</span>
+          <a href="https://www.linkedin.com/in/am-architects-and-construction-840361406" target="_blank"
+            rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://instagram.com/am_akibhamuneesh_architects" target="_blank"
+            rel="noopener noreferrer">Instagram</a>
+          <a href="http://facebook.com/p/Akibha-Muneesh-Architects-100094699623901/" target="_blank"
+            rel="noopener noreferrer">Facebook</a>
+          <a href="https://wa.me/918072027840" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="yr"></span> AM Architects LLP · COA / IA-NA-2009-AM</span>
+        <span>Crafted in India · All works protected</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING SOCIAL ============ -->
+  <div class="fab" id="fab">
+    <button class="fab__main" id="fabMain" aria-label="Connect">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <path d="M12 5v14M5 12h14" />
+      </svg>
+    </button>
+    <a class="fab__item" href="https://wa.me/916383397960" target="_blank" rel="noopener" aria-label="WhatsApp"
+      style="--i:1">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M20.5 3.5A11 11 0 0 0 3.7 17.3L2 22l4.8-1.7A11 11 0 1 0 20.5 3.5zM12 20.1c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-2.8 1 1-2.7-.2-.3a9.1 9.1 0 1 1 7 3.5zm5.2-6.8c-.3-.1-1.7-.8-1.9-.9-.3-.1-.5-.1-.7.1l-1 1.2c-.2.2-.4.2-.6.1a7.2 7.2 0 0 1-3.6-3.1c-.3-.5.3-.5.8-1.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.5-.5-.4-.6-.5h-.6a1 1 0 0 0-.8.4c-.3.3-1 1-1 2.4 0 1.5 1 2.9 1.2 3.1.2.2 2.1 3.2 5.1 4.5 1.9.7 2.6.8 3.5.7.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4z" />
+      </svg>
+    </a>
+    <a class="fab__item"
+      href="https://www.instagram.com/am_akibhamuneesh_architects?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+      target="_blank" rel="noopener" aria-label="Instagram" style="--i:2">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+        <rect x="3" y="3" width="18" height="18" rx="5" />
+        <circle cx="12" cy="12" r="4" />
+        <circle cx="17.5" cy="6.5" r="1" fill="currentColor" />
+      </svg>
+    </a>
+    <a class="fab__item" href="http://facebook.com/p/Akibha-Muneesh-Architects-100094699623901/" target="_blank"
+      rel="noopener" aria-label="Facebook" style="--i:3">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M13 22v-8h3l1-4h-4V7.5c0-1.2.4-2 2-2h2V2.1A28 28 0 0 0 14 2c-3 0-5 1.8-5 5v3H6v4h3v8h4z" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- ============ AUTH MODAL ============ -->
+  <div class="modal" id="authModal" aria-hidden="true">
+    <div class="modal__veil" data-close></div>
+    <div class="modal__card">
+      <button class="modal__close" data-close aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+
+      <!-- Step 1: phone -->
+      <div class="auth-step is-active" data-step="phone">
+        <div class="modal__eyebrow">Members' Access</div>
+        <h2 class="modal__title">Sign in to AM Architects.</h2>
+        <p class="modal__sub">Enter your phone number to receive a one-time passcode. We never share your details.</p>
+
+        <div class="phone-row">
+          <div class="phone-row__cc">+91</div>
+          <input type="tel" id="phoneInput" placeholder="98765 43210" maxlength="13" autocomplete="tel">
+        </div>
+        <button class="btn btn--primary btn--full" id="sendOtpBtn"><span>Send passcode</span></button>
+        <p class="modal__fineprint">By continuing you agree to our soft, sensible privacy policy.</p>
+      </div>
+
+      <!-- Step 2: OTP -->
+      <div class="auth-step" data-step="otp">
+        <div class="modal__eyebrow">Verify</div>
+        <h2 class="modal__title">Enter your passcode.</h2>
+        <p class="modal__sub">Sent to <b id="otpPhoneEcho"></b>. The simulated code is shown below — this is a demo.</p>
+
+        <div class="otp-row" id="otpRow">
+          <input type="text" inputmode="numeric" maxlength="1">
+          <input type="text" inputmode="numeric" maxlength="1">
+          <input type="text" inputmode="numeric" maxlength="1">
+          <input type="text" inputmode="numeric" maxlength="1">
+          <input type="text" inputmode="numeric" maxlength="1">
+          <input type="text" inputmode="numeric" maxlength="1">
+        </div>
+
+        <div class="otp-hint">Demo OTP: <b id="otpHint">——————</b></div>
+        <button class="btn btn--primary btn--full" id="verifyOtpBtn"><span>Verify &amp; continue</span></button>
+        <button class="auth-link" id="resendOtp">Resend passcode</button>
+      </div>
+
+      <!-- Step 3: email (optional) -->
+      <div class="auth-step" data-step="email">
+        <div class="modal__eyebrow">Almost there</div>
+        <h2 class="modal__title">Add an email?</h2>
+        <p class="modal__sub">Optional. We use it only to reply to project enquiries — never marketing.</p>
+
+        <label class="modal__label"><span>Email</span><input type="email" id="emailInput"
+            placeholder="you@studio.in"></label>
+        <button class="btn btn--primary btn--full" id="saveEmailBtn"><span>Finish</span></button>
+        <button class="auth-link" id="skipEmail">Skip for now</button>
+      </div>
+
+      <!-- Step 4: success -->
+      <div class="auth-step" data-step="done">
+        <div class="modal__success">
+          <svg width="38" height="38" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4">
+            <circle cx="24" cy="24" r="22" />
+            <path d="m15 24 7 7 12-14" />
+          </svg>
+        </div>
+        <h2 class="modal__title">You're in.</h2>
+        <p class="modal__sub" id="doneSub">Welcome. Our team will contact you shortly.</p>
+        <button class="btn btn--primary btn--full" id="doneCloseBtn"><span>Continue browsing</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ PROJECT MODAL ============ -->
+  <div class="modal modal--project" id="projectModal" aria-hidden="true">
+    <div class="modal__veil" data-close></div>
+    <div class="modal__card modal__card--wide">
+      <button class="modal__close" data-close aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="proj-detail" id="projDetail"></div>
+    </div>
+  </div>
+
+  <!-- ============ ARTICLE MODAL ============ -->
+  <div class="modal modal--project" id="articleModal" aria-hidden="true">
+    <div class="modal__veil" data-close></div>
+    <div class="modal__card modal__card--wide">
+      <button class="modal__close" data-close aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="article-detail" id="articleDetail"></div>
+    </div>
+  </div>
+
+  <!-- ============ TOAST ============ -->
+  <div class="toast" id="toast"><span id="toastMsg"></span></div>
+
+  <!-- ============ ADMIN PANEL ============ -->
+  <div class="admin" id="adminPanel" aria-hidden="true">
+    <div class="admin__head">
+      <div>
+        <div class="admin__brand">AM<span>Admin</span></div>
+        <span class="admin__sub" id="adminSub">Content management</span>
+      </div>
+      <div class="admin__actions">
+        <button class="admin__btn" id="adminExport">Export JSON</button>
+        <button class="admin__btn" id="adminImport">Import JSON</button>
+        <input type="file" id="adminImportFile" accept="application/json" hidden>
+        <button class="admin__btn" id="adminLeads">Leads (<span id="leadCount">0</span>)</button>
+        <button class="admin__btn admin__btn--logout" id="adminLogout">Sign out</button>
+      </div>
+    </div>
+
+    <!-- Login -->
+    <div class="admin__login" id="adminLogin">
+      <div class="admin__login-card">
+        <div class="modal__eyebrow">Admin Access</div>
+        <h2 class="modal__title">Sign in to edit content.</h2>
+        <p class="modal__sub">Enter the studio password to manage projects and articles.</p>
+        <input type="password" id="adminPassword" class="admin__input" placeholder="Password">
+        <button class="btn btn--primary btn--full" id="adminLoginBtn"><span>Enter studio</span></button>
+        <p class="modal__fineprint" style="margin-top:14px">Tip: edits save to this browser only.</p>
+      </div>
+    </div>
+
+    <!-- Body -->
+    <div class="admin__body" id="adminBody">
+      <div class="admin__tabs">
+        <button class="admin__tab is-active" data-tab="projects">Projects</button>
+        <button class="admin__tab" data-tab="articles">Journal</button>
+        <button class="admin__tab" data-tab="leads">Leads</button>
+      </div>
+
+      <div class="admin__pane is-active" data-pane="projects">
+        <div class="admin__pane-head">
+          <h3>Projects</h3>
+          <button class="btn btn--primary" id="addProject"><span>+ Add project</span></button>
+        </div>
+        <div class="admin__list" id="adminProjects"></div>
+      </div>
+
+      <div class="admin__pane" data-pane="articles">
+        <div class="admin__pane-head">
+          <h3>Journal articles</h3>
+          <button class="btn btn--primary" id="addArticle"><span>+ Add article</span></button>
+        </div>
+        <div class="admin__list" id="adminArticles"></div>
+      </div>
+
+      <div class="admin__pane" data-pane="leads">
+        <div class="admin__pane-head">
+          <h3>Captured leads</h3>
+          <button class="btn btn--ghost" id="clearLeads"><span>Clear all</span></button>
+        </div>
+        <div class="admin__list" id="adminLeadsList"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Editor Modal -->
+  <div class="modal modal--project" id="editorModal" aria-hidden="true">
+    <div class="modal__veil" data-close></div>
+    <div class="modal__card modal__card--wide">
+      <button class="modal__close" data-close aria-label="Close">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M18 6 6 18M6 6l12 12" />
+        </svg>
+      </button>
+      <div class="editor" id="editorBody"></div>
+    </div>
+  </div>
+
+  <!-- ============ MOCK CMS DATA ============ -->
+  <script id="cmsArticles" type="application/json">
+[
+  {
+    "id":"a1",
+    "category":"sustainable",
+    "categoryLabel":"Sustainable Architecture",
+    "title":"On Lime: a material that breathes back",
+    "excerpt":"Why we have, for fifteen years, returned to hand-laid lime plaster — and what it teaches a young studio about patience.",
+    "date":"March 2026",
+    "readTime":"7 min read",
+    "image":"images/p01-apartment-balconies.jpeg",
+    "body":"There is a moment, on the third or fourth day after a lime wall is plastered, when the surface begins to settle into itself. The trowel marks soften. The colour cools by a single shade. Walk past it in the morning and the wall is faintly damp; by afternoon it has dried into something quieter, more permanent. Cement does none of this. Lime, the older material, is alive in a way modern construction has largely forgotten.\n\nWe began using lime almost by accident. A site in coastal Karnataka, a budget that did not stretch to imported finishes, and an old mason who insisted on what he had always used. Fifteen years later it has become the studio's default — for walls, for floors in informal rooms, for the simple plinths that carry our smaller buildings.\n\nLime is slower. It demands a kind of attention that cement does not. But buildings finished in lime weather honestly. They show their age the way good furniture does: through use, through season, through the small repairs of human hands. We have come to think of it less as a material and more as a contract — between the building, the people who made it, and the climate it must keep returning to."
+  },
+  {
+    "id":"a2",
+    "category":"modern",
+    "categoryLabel":"Modern Design",
+    "title":"The plan as a kind of poem",
+    "excerpt":"On the long discipline of drawing plans by hand, and why we still ask every junior in the studio to begin with a pencil.",
+    "date":"February 2026",
+    "readTime":"5 min read",
+    "image":"images/p07-modern-house.jpeg",
+    "body":"A plan is not a document. A plan is a way of thinking. The first line you draw on a sheet decides, in some quiet way, the orientation of every room that follows — which is to say, it decides where the morning light will fall, where the children will sit, where the conversation of the household will take place.\n\nIn the studio we still draw the first plans by hand. There is a pragmatic reason — the eye sees relationships in a sketch that it does not see in CAD — but the deeper reason is closer to ritual. The pencil slows you down. It forces a kind of honesty about what you are proposing. The thickness of a wall, the proportion of a doorway, the relationship between a courtyard and a verandah: these are not parameters to be solved, they are decisions to be made.\n\nWhen a junior architect joins the studio, the first thing we ask is that they draw — not on a tablet, not in software, but on paper, with a soft pencil, slowly. Most of them have not done this since school. By the end of their first month they are usually drawing better, and what is more, they are designing better."
+  },
+  {
+    "id":"a3",
+    "category":"techniques",
+    "categoryLabel":"Building Techniques",
+    "title":"The jaali, reconsidered",
+    "excerpt":"Notes on three projects in which the perforated screen — that ancient Indian device — became the structural heart of the building.",
+    "date":"January 2026",
+    "readTime":"9 min read",
+    "image":"images/p06-vellaichamy-residence.jpeg",
+    "body":"The jaali is one of the great inventions of Indian architecture: a wall that filters light, breaks the wind, screens the eye, and ventilates the room behind it — all at once, all without machinery. For most of the last century it has been treated as ornament. We have been trying, in three recent projects, to return it to its older role as structure.\n\nIn the Tea Estate House at Munnar, a single south-facing jaali wall — eighteen feet high, in laterite — replaces what would have been a curtain wall, three layers of insulation, and an air-conditioning load. The room behind it is twelve degrees cooler than the verandah outside, on the hottest day of April.\n\nIn the Ramanathapuram Library, a jaali envelope wraps the entire reading hall. The light inside is dappled and mobile, the way light in a forest is mobile, and the readers — we are told by the librarian — stay later than they used to."
+  },
+  {
+    "id":"a4",
+    "category":"sustainable",
+    "categoryLabel":"Sustainable Architecture",
+    "title":"Cooling without machines",
+    "excerpt":"A short field guide to the passive techniques we have used in twelve hot-climate projects, with what we have learned from each.",
+    "date":"December 2025",
+    "readTime":"8 min read",
+    "image":"images/p08-narrow-house.jpeg",
+    "body":"Cross-ventilation. Stack effect. Evaporative court. Earth tube. Deep eave. The vocabulary of passive cooling is two thousand years old in this country, and over the last decade we have been gathering, project by project, what we have learned about each.\n\nThe earth tube is the most surprising. A length of buried pipe, drawing air through the soil before it reaches the room, can drop the supply temperature by ten or twelve degrees on a hot afternoon — at no running cost. We have used it twice; in both cases the client was sceptical until they spent a summer in the room.\n\nThe evaporative court is the most beautiful. A shallow pool of water at the centre of a building, shaded above and open to the sky at one edge, will pull warm air upward and replace it with cooler air drawn across its surface. It is also, incidentally, one of the most reliably calming spaces a house can contain."
+  },
+  {
+    "id":"a5",
+    "category":"modern",
+    "categoryLabel":"Modern Design",
+    "title":"Against the open plan",
+    "excerpt":"Why, after a decade of designing them, we have begun gently moving our residential clients away from open-plan living.",
+    "date":"November 2025",
+    "readTime":"6 min read",
+    "image":"images/p14-courtyard-house.jpeg",
+    "body":"For about a decade we designed mostly open plans. Clients asked for them; the magazines praised them; we believed in them. We are now, slowly, designing fewer.\n\nThe argument for the open plan is that it brings the family together. The argument against it, which has emerged from a hundred conversations with people who have lived in ours, is that it does the opposite. A family in a single large room has nowhere to be alone, no edge to retreat to, no door to close gently. The result is not togetherness but a low background friction — someone watching television, someone on a call, someone trying to read.\n\nWhat we are designing now are houses with rooms again — small rooms, connected rooms, rooms with thresholds. Rooms that can be walked between, but also rooms that can be closed."
+  },
+  {
+    "id":"a6",
+    "category":"techniques",
+    "categoryLabel":"Building Techniques",
+    "title":"On the rammed-earth wall",
+    "excerpt":"Six houses, one studio, and what we now know about building with the soil from the site itself.",
+    "date":"October 2025",
+    "readTime":"10 min read",
+    "image":"images/p15-modern-villa-brown.jpeg",
+    "body":"Six rammed-earth projects in, we have a more measured view than we did at the start. Rammed earth is not a miracle. It is slow, labour-intensive, and weather-dependent in a way that most modern construction has been deliberately designed to escape from. It also produces some of the most beautiful walls a building can have — striated, warm, very slightly imperfect, and unmistakably of the place they came from.\n\nThe trick, we have learned, is to be honest about its limits. Rammed earth does not love long monsoon exposure; it does not span; it does not enjoy being painted. Used inside, or under a generous overhanging roof, or as a thick load-bearing skin, it is patient and quiet and lasts more or less indefinitely.\n\nThe most surprising thing about a rammed-earth building, for the people who live in one, is the silence. The walls absorb sound the way a heavy curtain does. The house feels held."
+  }
+]
+</script>
+
+  <!-- Emergency loader killer — runs immediately, kills loader after 3 seconds NO MATTER WHAT -->
+  <script>
+    (function killLoader() {
+      setTimeout(function () {
+        var l = document.getElementById('loader');
+        if (l) {
+          l.style.opacity = '0';
+          l.style.visibility = 'hidden';
+          l.style.pointerEvents = 'none';
+          setTimeout(function () { if (l && l.parentNode) l.parentNode.removeChild(l); }, 600);
+        }
+      }, 3000);
+    })();
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
