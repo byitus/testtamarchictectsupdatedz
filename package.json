@@ -1,0 +1,10 @@
+{
+  "name": "am-architects",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AM Architects — official site",
+  "engines": {
+    "node": ">=18"
+  }
+}
